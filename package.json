@@ -18,7 +18,9 @@
     "react-dom": "16.13.1",
     "react-moment": "^1.1.1",
     "react-scripts": "4.0.0",
+    "react-select": "^5.5.7",
     "react-sortable-hoc": "^2.0.0",
+    "react-widgets": "^4.6.1",
     "sass": "^1.55.0"
   },
   "devDependencies": {

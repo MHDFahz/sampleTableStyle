@@ -11,6 +11,7 @@ import {
 import Moment from "react-moment";
 import DateRangeListFilter from "../components/list-filters/DateRangeListFilter";
 import { ListFilters, MultiSelectFilter } from "../components/list-filters";
+import Pagination from "../components/pagination/Pagination";
 
 const data = [
   {
@@ -243,6 +244,21 @@ export default function SampleTable() {
         >
           {columns}
         </ListTable>
+        <Pagination
+          currentPage={1}
+          totalPages={10}
+          onPageChange={(pg) => {
+            // setPage(pg);
+            // onChangeFilter(filters, search, pg, perPage, dateFilters, sort);
+          }}
+          perPage={25}
+          onPerPageChange={(pg) => {
+            // setPerPage(pg);
+            // onChangeFilter(filters, search, page, pg, dateFilters, sort);
+          }}
+          count={125}
+          label="Patients"
+        />
       </div>
     </>
   );

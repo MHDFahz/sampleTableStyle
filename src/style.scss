@@ -1177,3 +1177,73 @@ $gray-900: #0F1312;
 .font-xxxs {
   font-size: 10px!important;
 }
+
+// Pagination
+
+.page {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 10px;
+  border-top: 1px solid $border-color;
+  position: fixed;
+  z-index: 9;
+  margin-top: -1px;
+  bottom: 0;
+  background: #fff;
+  width: 100%;
+  .rw-widget-picker {
+    height: 32px;
+    padding: 0 !important;
+    border-radius: 4px !important;
+  }
+}
+
+.pagination {
+  margin: 0;
+}
+.pagination {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  border-radius: 4px;
+}
+
+.page-item {
+  margin: 0 6px;
+
+  &.disabled {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.page-link {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: rem(14);
+  font-weight: 600;
+}
+.page-link {
+  padding: 0 5px !important;
+  margin-left: 0 !important;
+  line-height: 32px !important;
+}
+
+.page-item {
+  margin: 0 6px;
+
+  &.disabled {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.page-control {
+  .page-link {
+    background-color: $white;
+    border: 1px solid $border-color;
+    font-size: 10px;
+  }
+}
