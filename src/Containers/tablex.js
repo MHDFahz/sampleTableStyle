@@ -180,7 +180,7 @@ export default function SampleTable() {
         allowSearch
         options={[
           { _id: "111", name: "fahis" },
-          { _id: "111", name: "suresh" },
+          { _id: "112", name: "suresh" },
         ]}
         valueField="_id"
         labelField="name"
@@ -189,7 +189,7 @@ export default function SampleTable() {
   );
   return (
     <>
-      <div className="">
+      <div className="container-fluid">
         <ListHeader additionalRows={filterRow} actions={headerActions}>
           <h2 className="m-0">
             Patients

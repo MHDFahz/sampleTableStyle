@@ -1155,10 +1155,12 @@ $gray-900: #0F1312;
 }
 .dropdown-save {
   .dropdown-menu {
-    html[dir='ltr'] & {
-      left: inherit;
-      right: 0;
-    }
+    // html[dir='ltr'] & {
+    //   left: inherit;
+    //   right: 0;
+    // }
+    left: inherit;
+    right: 0;
   }
 }
 .font-xxxxs {
