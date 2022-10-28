@@ -1,5 +1,6 @@
 $border-color: #E7E8E9;
 $white: #fff;
+$primary: #4161C8;
 
 $gray-100: #F5F6F8;
 $gray-200: #DFE0EB;
@@ -828,6 +829,13 @@ $gray-900: #0F1312;
 
 
 // List Filter
+.filter-blk {
+  box-shadow: 1px 1px 0 $border-color;
+}
+
+.filter-selected {
+  background-color: rgba($primary, 0.08);
+}
 
 .gutter {
   &-5 {
@@ -1155,4 +1163,15 @@ $gray-900: #0F1312;
 }
 .font-xxxxs {
   font-size: 8px;
+}
+.align-xy-center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.font-xxxxs {
+  font-size: 8px;
+}
+.font-xxxs {
+  font-size: 10px!important;
 }
